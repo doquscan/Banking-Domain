@@ -1,0 +1,8 @@
+Testing the API
+Use a tool like Postman or cURL to test the endpoints:
+
+Create Account: POST /api/accounts/create?accountNumber=12345&accountHolderName=John
+Get Account: GET /api/accounts/12345
+Deposit: POST /api/accounts/12345/deposit?amount=1000
+Withdraw: POST /api/accounts/12345/withdraw?amount=500
+This example demonstrates a simple REST API for a banking domain using Spring Boot. You can extend it further with additional functionality like transfer between accounts, transaction history, and more.

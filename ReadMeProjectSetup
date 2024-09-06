@@ -1,0 +1,7 @@
+Project Setup
+First, ensure you have a Spring Boot project set up with the following dependencies:
+
+Spring Web
+Spring Data JPA
+H2 Database (for in-memory database testing, but you can use any database)
+Lombok (optional, for reducing boilerplate code)
